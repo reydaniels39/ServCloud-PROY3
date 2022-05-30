@@ -5,10 +5,7 @@ const express = require('express');
 const app = express();
 const dbConnection = require('./config/dbConnection');
 
-const alumnos = require('./data/alumnos.json')
 const bodyParser = require('body-parser');
-const fs = require ('fs');
-const exp = require('constants');
 
 app.use(bodyParser.urlencoded({extended: true}));
 
