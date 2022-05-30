@@ -1,2 +1,3 @@
 /node_modules
 /AWS-RDS-DB-CREDENTIALS
+/.serverless
